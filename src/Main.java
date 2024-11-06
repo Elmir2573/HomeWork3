@@ -1,5 +1,60 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args){
+ System.out.println("Задание 1");
+var dog = 8.0;
+System.out.println("Значение переменной dog равно " +dog);
+var cat = 3.6;
+System.out.println("Значение переменной cat равно " +cat);
+var paper = 763789;
+System.out.println("Значение переменной paper равно " +paper);
+        System.out.println("Задание 2");
+var dog1 = dog + 4;
+System.out.println("Значение переменной dog увеличилось и теперь равно " +dog1);
+var cat1 = cat + 4;
+System.out.println("Значение переменной cat увеличилось и теперь равно " +cat1);
+var paper1 = paper +4;
+System.out.println("Значение переменной paper увеличилось и теперь равно " +paper1);
+        System.out.println("Задание 3");
+var dog2 = dog - 3.5;
+System.out.println("Значение переменной dog уменьшилось и теперь равно " +dog2);
+var cat2 =  cat - 1.6;
+System.out.println("Значение переменной cat уменьшилось и теперь равно " +cat2);
+var paper2 = paper - 7639;
+System.out.println("Значение переменной paper уменьшилось и теперь равно " +paper2);
+        System.out.println("Задание 4");
+var friend = 19;
+System.out.println("Значение переменной friend равно " +friend);
+var friend1 = friend + 2;
+System.out.println("Значение переменной friend увеличилось и теперь равно " +friend1);
+var friend2 = friend1 / 7;
+System.out.println("Новое начение переменной friend теперь равно " +friend2);
+        System.out.println("Задание 5");
+var frog = 3.5;
+System.out.println("Значение переменной frog равно " +frog);
+var frog1 = frog * 10;
+System.out.println("Значение переменной frog увеличилось в десять раз и теперь равно " +frog1);
+var frog2 = frog1 / 3.5;
+System.out.println("Новое начение переменной frog после деления равно " +frog2);
+var frog3 = frog2 - 4;
+System.out.println("Окончательное начение переменной frog после проведения всех действий равно " +frog3);
+        System.out.println("Задание 6");
+var boxer1Weight = 78.2;
+var boxer2Weight = 82.7;
+var totalWeightOfBoxers = boxer1Weight + boxer2Weight;
+System.out.println("Общая масса двух бойцов составляет " +totalWeightOfBoxers+ " кг");
+var boxerWeightDifference = boxer2Weight - boxer1Weight;
+System.out.println("Разница между массами бойцов составляет " +boxerWeightDifference+ " кг");
+        System.out.println("Задание 7");
+var weightDifference = boxer2Weight % boxer1Weight;
+System.out.println("Разница в весе между боксерами составляет " +weightDifference+ " кг");
+System.out.println("Задание 8");
+var totalWorkTime = 640;
+var workTimeOnePeople = 8;
+var totalEmployees = totalWorkTime / workTimeOnePeople;
+System.out.println("Всего работников в компании - " +totalEmployees+ " человек");
+var totalEmployees1 = totalEmployees + 94;
+var totalWorkTime1 = totalEmployees1 * 8;
+System.out.println("Если в компании работает " +totalEmployees1+ " человек, то всего " +totalWorkTime1+ " часов работы может быть поделено между сотрудниками");
+
     }
 }
