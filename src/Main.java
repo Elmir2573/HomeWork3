@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args){
- System.out.println("Задание № 1");
+System.out.println("Задание № 1");
 var dog = 8.0;
 System.out.println("Значение переменной dog равно " +dog);
 var cat = 3.6;
 System.out.println("Значение переменной cat равно " +cat);
 var paper = 763789;
 System.out.println("Значение переменной paper равно " +paper);
-        System.out.println("Задание № 2");
+System.out.println("Задание № 2");
 dog += 4;
 System.out.println("Значение переменной dog увеличилось и теперь равно " +dog);
 cat += 4;
